@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.sidebar
+{
+    background-color: rgb(6, 206, 251);
+    font-family: 'Cairo', sans-serif;
+    width: 300px;
+    padding: 20px;
+    color: beige;
+    height: 100vh;
+}
+
+.main
+{
+    /* background-color: rgb(0, 0, 0); */
+    width: 76vw;
+    color: rgb(24, 21, 21);
+    font-size: 25px;
+}
+.container
+{
+    display:flex ;
+}
+.sidebar nav{
+   padding: 35px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 4px 0px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.infocontainer
+{
+    background-color: rgb(6, 206, 251);
+    height: 60vh;
+    width: 60vw;
+    margin: 75px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img
+{
+    height: 60vh;
+}
+.devinfo
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello
+{
+     font-size: 30px;
+}
+.name
+{ 
+    font-size: 45px;
+    font-weight: bold;
+}
+.about
+{ 
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.btn button
+{
+    padding: 5px;
+    border-radius: 14px;
+    color: white;
+    background-color: #746230;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.btn-sm
+{
+    width: 82px;
+}
+.btn  :hover {
+   
+    background-color: whitesmoke;
+    color: rgb(99, 82, 255);
+}
+
+.contactform form
+{
+    font-family: 'Cairo', sans-serif;
+    /* text-align: center; */
+    padding: 0 366px;
+    padding-top: 1px;
+    font-size: 18px;
+}
+.contactform h2 
+{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+}
+.contactform form div 
+{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input 
+{
+    width: 259px;
+    padding: 3px;
+    border-radius: 13px;
+    font-size: 16p;
+    font-size: 20px;
+    margin: 2px
+}
+#emailHelp
+{
+    font-size: 10px;
+    color: rgb(255, 0, 0);
+    margin: 0 5px;
+}
+
+#formcheck
+{
+    flex-direction: row;
+}
+#formcheck input{
+    width: 23px;
+    margin: 10px 1px;
+    /* font-size: 10px; */
+    
+}
+
+.blogitem
+{
+    margin: 38px;
+    font-family: 'Cairo', sans-serif;
+}
+ 
+ h1
+{
+    font-family: 'Cairo', sans-serif;
+    margin: 23px;
+}
+
+ p
+{
+    font-family: 'Cairo', sans-serif;
+}
+.intro h1
+{
+    font-family: 'Cairo', sans-serif;
+    margin: 17px 25px;
+
+}
+.intro p{
+    font-family: 'Cairo', sans-serif;
+    margin: 17px 25px;
+}
+
+.skillcontainer
+{
+    padding: 16px;
+}
+.skills
+{
+    width: 200px;
+    height: 12px;
+    background-color: #f90000;
+}
+
+@media screen and (max-width: 1000px) {
+    
+        *{
+      background-color: rgb(1, 255, 1);}
+      .sidebar
+      {
+            position: absolute;
+            transform: translate(-350px, 0px);
+      }
+    
+        }
